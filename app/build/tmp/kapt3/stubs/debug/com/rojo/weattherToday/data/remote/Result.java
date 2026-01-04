@@ -1,7 +1,5 @@
 package com.rojo.weattherToday.data.remote;
 
-import retrofit2.Response;
-
 @kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000\u001c\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b7\u0018\u0000*\u0006\b\u0000\u0010\u0001 \u00012\u00020\u0002:\u0003\u0004\u0005\u0006B\u0007\b\u0004\u00a2\u0006\u0002\u0010\u0003\u0082\u0001\u0003\u0007\b\t\u00a8\u0006\n"}, d2 = {"Lcom/rojo/weattherToday/data/remote/Result;", "T", "", "()V", "Error", "Loading", "Success", "Lcom/rojo/weattherToday/data/remote/Result$Error;", "Lcom/rojo/weattherToday/data/remote/Result$Loading;", "Lcom/rojo/weattherToday/data/remote/Result$Success;", "app_debug"})
 public abstract class Result<T extends java.lang.Object> {
     

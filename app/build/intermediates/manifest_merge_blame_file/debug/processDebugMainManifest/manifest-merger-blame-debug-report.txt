@@ -8,7 +8,7 @@
 8        android:minSdkVersion="29"
 9        android:targetSdkVersion="36" />
 10
-11    <!-- internet Permission for API Calls -->
+11    <!-- Internet permission for API calls -->
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:6:5-67
 12-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:6:22-64
@@ -17,148 +17,150 @@
 13-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:7:22-76
 14
 15    <permission
-15-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\27b75c6e182ec0d6cf8d0aaf2f1bbacf\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+15-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\44225e92e9a99782880dda4352ad9089\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
 16        android:name="com.rojo.weattherToday.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\27b75c6e182ec0d6cf8d0aaf2f1bbacf\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+16-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\44225e92e9a99782880dda4352ad9089\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
 17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\27b75c6e182ec0d6cf8d0aaf2f1bbacf\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+17-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\44225e92e9a99782880dda4352ad9089\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
 18
 19    <uses-permission android:name="com.rojo.weattherToday.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\27b75c6e182ec0d6cf8d0aaf2f1bbacf\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\27b75c6e182ec0d6cf8d0aaf2f1bbacf\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+19-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\44225e92e9a99782880dda4352ad9089\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\44225e92e9a99782880dda4352ad9089\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:9:5-29:19
-22        android:allowBackup="true"
-22-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:10:9-35
-23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\27b75c6e182ec0d6cf8d0aaf2f1bbacf\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
-24        android:dataExtractionRules="@xml/data_extraction_rules"
-24-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:11:9-65
-25        android:debuggable="true"
-26        android:extractNativeLibs="false"
-27        android:fullBackupContent="@xml/backup_rules"
-27-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:12:9-54
-28        android:icon="@mipmap/ic_launcher"
-28-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:13:9-43
-29        android:label="@string/app_name"
-29-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:14:9-41
-30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:15:9-54
-31        android:supportsRtl="true"
-31-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:16:9-35
-32        android:theme="@style/Theme.Weatther" >
-32-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:17:9-46
-33        <activity
-33-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:18:9-28:20
-34            android:name="com.rojo.weattherToday.MainActivity"
-34-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:19:13-41
-35            android:exported="true"
-35-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:20:13-36
-36            android:label="@string/app_name"
-36-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:21:13-45
-37            android:theme="@style/Theme.Weatther" >
-37-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:22:13-50
-38            <intent-filter>
-38-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:23:13-27:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:24:17-69
-39-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:24:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:26:17-77
-41-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:26:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity
-44-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\880be036559a8cd948f6777a35d550e5\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
-45            android:name="androidx.compose.ui.tooling.PreviewActivity"
-45-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\880be036559a8cd948f6777a35d550e5\transformed\ui-tooling\AndroidManifest.xml:24:13-71
-46            android:exported="true" />
-46-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\880be036559a8cd948f6777a35d550e5\transformed\ui-tooling\AndroidManifest.xml:25:13-36
-47        <activity
-47-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\206544ace6d58de6c3cb7a91e9262032\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:23:9-26:79
-48            android:name="androidx.activity.ComponentActivity"
-48-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\206544ace6d58de6c3cb7a91e9262032\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:24:13-63
-49            android:exported="true"
-49-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\206544ace6d58de6c3cb7a91e9262032\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:25:13-36
-50            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
-50-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\206544ace6d58de6c3cb7a91e9262032\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:26:13-76
-51
-52        <provider
-52-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
-53            android:name="androidx.startup.InitializationProvider"
-53-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
-54            android:authorities="com.rojo.weattherToday.androidx-startup"
-54-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
-55            android:exported="false" >
-55-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
-56            <meta-data
-56-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-57-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
-58                android:value="androidx.startup" />
-58-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\c558d086ce14c5cdcd8c1232507771d3\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
-59            <meta-data
-59-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Dell\.gradle\caches\8.13\transforms\88c3177d705bc9f0fc26c994f6efbcfc\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-60-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Dell\.gradle\caches\8.13\transforms\88c3177d705bc9f0fc26c994f6efbcfc\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
-61                android:value="androidx.startup" />
-61-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Dell\.gradle\caches\8.13\transforms\88c3177d705bc9f0fc26c994f6efbcfc\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
-62            <meta-data
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-63-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-64                android:value="androidx.startup" />
-64-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-65        </provider>
-66
-67        <service
-67-->[androidx.room:room-runtime:2.6.1] C:\Users\Dell\.gradle\caches\8.13\transforms\a630149570900806bd8f6fef3afa0ce9\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-68            android:name="androidx.room.MultiInstanceInvalidationService"
-68-->[androidx.room:room-runtime:2.6.1] C:\Users\Dell\.gradle\caches\8.13\transforms\a630149570900806bd8f6fef3afa0ce9\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-69            android:directBootAware="true"
-69-->[androidx.room:room-runtime:2.6.1] C:\Users\Dell\.gradle\caches\8.13\transforms\a630149570900806bd8f6fef3afa0ce9\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-70            android:exported="false" />
-70-->[androidx.room:room-runtime:2.6.1] C:\Users\Dell\.gradle\caches\8.13\transforms\a630149570900806bd8f6fef3afa0ce9\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-71
-72        <receiver
-72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-74            android:directBootAware="false"
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-75            android:enabled="true"
-75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-76            android:exported="true"
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-77            android:permission="android.permission.DUMP" >
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-78            <intent-filter>
-78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-80            </intent-filter>
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\411160cb9fda5fee44cb5bc54632b09d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-89            </intent-filter>
-90        </receiver>
-91    </application>
-92
-93</manifest>
+21-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:9:5-30:19
+22        android:name="com.rojo.weattherToday.WeatherTodayApplication"
+22-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:10:9-48
+23        android:allowBackup="true"
+23-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.17.0] C:\Users\Dell\.gradle\caches\8.13\transforms\44225e92e9a99782880dda4352ad9089\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:12:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:13:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:17:9-35
+33        android:theme="@style/Theme.Weatther" >
+33-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:18:9-46
+34        <activity
+34-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:19:9-29:20
+35            android:name="com.rojo.weattherToday.MainActivity"
+35-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:20:13-41
+36            android:exported="true"
+36-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:21:13-36
+37            android:label="@string/app_name"
+37-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:22:13-45
+38            android:theme="@style/Theme.Weatther" >
+38-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:23:13-50
+39            <intent-filter>
+39-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:24:13-28:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:25:17-69
+40-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:27:17-77
+42-->C:\Users\Dell\AndroidStudioProjects\Weatther\app\src\main\AndroidManifest.xml:27:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\ca4331d010cc5d2de5461a8572c62e26\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+46            android:name="androidx.compose.ui.tooling.PreviewActivity"
+46-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\ca4331d010cc5d2de5461a8572c62e26\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+47            android:exported="true" />
+47-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\ca4331d010cc5d2de5461a8572c62e26\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+48        <activity
+48-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\7635ea85c3de4bae548e8d05fd60bbdd\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:23:9-26:79
+49            android:name="androidx.activity.ComponentActivity"
+49-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\7635ea85c3de4bae548e8d05fd60bbdd\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:24:13-63
+50            android:exported="true"
+50-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\7635ea85c3de4bae548e8d05fd60bbdd\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:25:13-36
+51            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+51-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\Dell\.gradle\caches\8.13\transforms\7635ea85c3de4bae548e8d05fd60bbdd\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:26:13-76
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+55            android:authorities="com.rojo.weattherToday.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\afdfa21490f1f232e90ff41bd9de3d46\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6960fcd6dc2743543ddf32d79fd17140\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6960fcd6dc2743543ddf32d79fd17140\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6960fcd6dc2743543ddf32d79fd17140\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+65                android:value="androidx.startup" />
+65-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+66        </provider>
+67
+68        <service
+68-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Dell\.gradle\caches\8.13\transforms\aff1f959e3267308fe6a9c3bce9fd511\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+69            android:name="androidx.room.MultiInstanceInvalidationService"
+69-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Dell\.gradle\caches\8.13\transforms\aff1f959e3267308fe6a9c3bce9fd511\transformed\room-runtime\AndroidManifest.xml:25:13-74
+70            android:directBootAware="true"
+70-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Dell\.gradle\caches\8.13\transforms\aff1f959e3267308fe6a9c3bce9fd511\transformed\room-runtime\AndroidManifest.xml:26:13-43
+71            android:exported="false" />
+71-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Dell\.gradle\caches\8.13\transforms\aff1f959e3267308fe6a9c3bce9fd511\transformed\room-runtime\AndroidManifest.xml:27:13-37
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\8.13\transforms\6d7b02a2fed50ac69b3b63c81f03765b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver>
+92    </application>
+93
+94</manifest>

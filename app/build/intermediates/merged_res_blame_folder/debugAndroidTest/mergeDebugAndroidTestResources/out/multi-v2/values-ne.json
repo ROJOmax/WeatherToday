@@ -4,7 +4,7 @@
             "outputFile": "com.rojo.weattherToday.test.app-mergeDebugAndroidTestResources-27:/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\02370e6f097ebdba34a4fc029fd68a40\\transformed\\ui-release\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\474f1c997eacf835f5ef50b46d1ae449\\transformed\\ui-release\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\27b75c6e182ec0d6cf8d0aaf2f1bbacf\\transformed\\core-1.17.0\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\44225e92e9a99782880dda4352ad9089\\transformed\\core-1.17.0\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

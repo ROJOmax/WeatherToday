@@ -25,10 +25,13 @@ android {
         val properties = Properties()
         properties.load(project.rootProject.file("local.properties").inputStream())
         buildConfigField("String", "WEATHER_API_KEY", "\"${properties.getProperty("WEATHER_API_KEY")}\"")
+        buildConfigField("String", "BASE_URL", "\"${properties.getProperty("BASE_URL")}\"")
 
-        buildFeatures {
-            buildConfig = true
-        }
+
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     buildTypes {

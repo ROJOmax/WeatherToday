@@ -4,24 +4,7 @@
             "outputFile": "com.rojo.weattherToday.test.app-mergeDebugAndroidTestResources-27:/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\27b75c6e182ec0d6cf8d0aaf2f1bbacf\\transformed\\core-1.17.0\\res\\values-sv\\values-sv.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,150,252,350,449,557,662,783",
-                        "endColumns": "94,101,97,98,107,104,120,100",
-                        "endOffsets": "145,247,345,444,552,657,778,879"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "181,276,378,476,575,683,788,2253",
-                        "endColumns": "94,101,97,98,107,104,120,100",
-                        "endOffsets": "271,373,471,570,678,783,904,2349"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\02370e6f097ebdba34a4fc029fd68a40\\transformed\\ui-release\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\474f1c997eacf835f5ef50b46d1ae449\\transformed\\ui-release\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,909,1002,1090,1186,1285,1373,1449,1537,1626,1707,1793,1883,1952,2038,2112,2183,2354,2432,2499",
                         "endColumns": "75,92,87,95,98,87,75,87,88,80,85,89,68,85,73,70,69,77,66,119",
                         "endOffsets": "176,997,1085,1181,1280,1368,1444,1532,1621,1702,1788,1878,1947,2033,2107,2178,2248,2427,2494,2614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\8.13\\transforms\\44225e92e9a99782880dda4352ad9089\\transformed\\core-1.17.0\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,350,449,557,662,783",
+                        "endColumns": "94,101,97,98,107,104,120,100",
+                        "endOffsets": "145,247,345,444,552,657,778,879"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "181,276,378,476,575,683,788,2253",
+                        "endColumns": "94,101,97,98,107,104,120,100",
+                        "endOffsets": "271,373,471,570,678,783,904,2349"
                     }
                 }
             ]
