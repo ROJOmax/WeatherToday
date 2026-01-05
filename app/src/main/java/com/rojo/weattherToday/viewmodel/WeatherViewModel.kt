@@ -46,7 +46,7 @@ class WeatherViewModel @Inject constructor(
         }
     }
 
-    fun loadForecast(cityName: String, forceRefresh: Boolean) {
+    fun loadForecast(cityName: String, forceRefresh: Boolean = false) {
         viewModelScope.launch {
             _forecastState.value = ForecastUiState.Loading
 
